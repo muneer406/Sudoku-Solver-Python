@@ -135,7 +135,7 @@ def fillGrid():
 
     again = input("\nIs it correct? (Y/N) >>> ").capitalize()
     if 'N' in again:
-        fillGrid()
+        return fillGrid()
 
     return grid
 
